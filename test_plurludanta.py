@@ -1,7 +1,7 @@
 import pytest
 from fastapi.testclient import TestClient
 from sqlmodel import Session, SQLModel, create_engine
-from chrismud import app, get_session
+from plurludanta import app, get_session
 from sqlmodel.pool import StaticPool
 
 @pytest.fixture(name="session")  

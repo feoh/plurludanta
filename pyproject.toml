@@ -1,5 +1,5 @@
 [project]
-name = "chrismud"
+name = "plurludanta"
 version = "3.14.2"
 description = "An HTTP based multi user dungeon?"
 readme = "README.md"

@@ -8,7 +8,7 @@ import uuid
 
 
 def initialize_database():
-    sqlite_file_name='chrismud.db'
+    sqlite_file_name='plurludanta.db'
     sqlite_url='sqlite:///' + sqlite_file_name
 
     engine = create_engine(sqlite_url, echo=True)
